@@ -40,8 +40,10 @@ void addNode() {
 		Node* previous = NULL;// step1.b:previous node is NULL intilialyy
 
 		while (current != NULL && current->noMhs < newNode->noMhs) {
-
+			previous = current;
+			current = current->next;
 		}
+
 
 	}
 	
