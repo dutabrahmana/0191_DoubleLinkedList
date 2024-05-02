@@ -26,6 +26,9 @@ void addNode() {
 			return;
 			
 		}
+		// if the list is empty make the new node the START
+		newNode->next = START;
+
 	}
 
 
