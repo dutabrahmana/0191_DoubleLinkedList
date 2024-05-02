@@ -14,6 +14,12 @@ Node* START = NULL;
 
 void addNode() {
 	Node* newNode = new Node(); // step1: create a new code
+	cout << "\nEnter the roll number of the student: ";
+	cin >> newNode->noMhs; // Asign value to the data field of the new node
+	cout << "\nEnter the name of the srudent: ";
+	cin >> newNode->name;
+
+	
 
 
 }
