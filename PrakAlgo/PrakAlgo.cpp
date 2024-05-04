@@ -73,4 +73,10 @@ bool search(int rollNo, Node** previous, Node** current)
     return (*current != NULL);
 }
 
+void deleteNode()
+{
+    Node* previous, * current;
+    int rollNo;
+                                                               //step 3get the roll number to be deleted
 
+   
