@@ -93,4 +93,15 @@ void deleteNode()
     //locate the node to be deleted
     while (current != NULL && current->noMhs != rollNo)
     {
-       
+        previous = current;
+        current = current->next;
+    }
+
+    if (current == NULL)
+    {
+        cout << "\033[31mThe record with roll number " << rollNo << "not found\033[0m" << endl;
+        return;
+    }
+
+    //Node to be deleted is the firts node
+   
